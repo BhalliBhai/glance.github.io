@@ -902,6 +902,12 @@
 }
 
 @media screen and (max-width: 425px) {
+    .carousel-control-next, .carousel-control-prev{
+    width: 20%;
+    }
+    .carousel-indicators {
+    bottom: -23% !important;
+}
     .carousel-control-next-icon {
         height: 30px !important;
         width: 30px !important;
