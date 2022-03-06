@@ -729,7 +729,7 @@
     }
 
     .success-btn {
-        left: 35%;
+        left: 24%;
         bottom: -12%;
         color: white;
         padding: 5px 25px !important;
@@ -1026,6 +1026,11 @@ form button:hover {
         width: 40%;
     }
 
+}
+@media screen and (max-width: 425px){
+    form label input[type=text] {
+        width: 120% !important;
+    }
 }
 @media screen and (max-width: 375px){
     .contactmble-sm img {
