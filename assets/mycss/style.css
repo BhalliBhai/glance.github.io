@@ -1,0 +1,1048 @@
+.header-bg {
+    background-image: url(../images/header1.webp);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.headertext {
+    vertical-align: middle;
+    margin: auto;
+}
+
+.headertext h1 {
+    font-size: 40px;
+    text-align: start;
+}
+
+.headertext h1 span {
+    color: #fc024d;
+}
+
+.h-centerimg {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+
+.hbtn {
+    vertical-align: middle;
+    margin: auto;
+}
+
+.btn-talk {
+    background-color: crimson;
+    border-radius: 25px !important;
+    padding: 3px 35px !important;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .headertext h1 {
+
+        text-align: center !important;
+    }
+
+    .logo img {
+        width: 50% !important;
+        height: auto;
+    }
+
+    .btn-talk {
+        padding: 8px 40px !important;
+        color: #fff;
+        border-radius: 25px;
+        border: none;
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:580px) {
+    .d-sm-none {
+        display: none;
+    }
+
+    .h-centerimg {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+/* -------------- */
+.section-2 {
+    background-image: url(../images/bg2.webp);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.sec2-text h1 {
+    color: white;
+}
+
+@media screen and (max-width: 780px) {
+    .sec2-text h1 {
+        margin-top: 0px !important;
+        padding-top: 170px;
+        margin-bottom: 30px !important;
+    }
+
+    .section-2 {
+        background-size: 100% 87%;
+
+    }
+
+    #mybuttons {
+        padding-top: 50px;
+        vertical-align: middle;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn-n {
+        display: none !important;
+    }
+
+    .btn-group-vertical .active,
+    .btn-group-vertical .btn {
+        font-weight: 600 !important;
+        font-size: 25px !important;
+        color: #fc024d !important;
+        border: 2px solid #fc024d !important;
+    }
+
+    .mble-cylinder img {
+        width: 90%;
+        height: auto;
+        margin-bottom: -30px;
+    }
+
+    .btn-group-vertical .active::after {
+        font-family: "Font Awesome 5 Free";
+        content: "/f144";
+        font-size: 25px;
+        font-weight: 100;
+        color: #fc024d;
+    }
+}
+
+.sec2-text h1 span {
+    color: #fcf802;
+}
+
+.mble-cylinder img {
+    width: 100%;
+    height: auto;
+}
+
+.sec2-text {
+    vertical-align: middle;
+    margin: auto;
+    width: 100%;
+}
+
+.btn-group-vertical {
+    text-align: left;
+    margin-left: auto;
+}
+
+.btn-group-vertical .btn {
+    color: rgb(221, 221, 221);
+    text-align: left;
+    padding: 3px 10px auto;
+    font-size: 25px;
+    width: auto;
+    letter-spacing: 2px;
+    line-height: 90%;
+}
+
+.btn-group-vertical .active:active,
+.btn-group-vertical .active:focus,
+.btn-group-vertical .active {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 10px !important;
+    border-color: white;
+}
+
+.btn-group-vertical .btn:focus {
+    box-shadow: none;
+}
+
+.btn-group-vertical .active::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f144";
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(235, 228, 228);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .btn-group-vertical .btn {
+
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 70%;
+    }
+
+    /* .btn-group-vertical .active:active,
+    .btn-group-vertical .active:focus,
+    .btn-group-vertical .active {
+
+        font-size: 20px;
+    } */
+}
+
+/* ------------- */
+.rech-text h1 span {
+    color: #fc024d;
+}
+
+.img100 img {
+    width: 100%;
+    height: auto;
+}
+
+.imgsm100 img {
+    width: 100%;
+    height: auto;
+}
+
+.imgsm1001 img {
+    width: 100%;
+    height: auto;
+}
+
+.sec-percentage {
+    border-right: 1px solid black;
+    /* padding-left: 10%; */
+}
+
+.percentage {
+    display: flex;
+    padding: 5px;
+    align-items: inherit;
+}
+
+.percentage .img {
+    text-align: right;
+}
+
+.percentage .img img {
+    width: 60% !important;
+    height: auto;
+
+}
+
+.percentage .img span {
+    font-weight: 600;
+}
+
+.percentage .h6 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.percentage .h6 h6 {
+    padding-top: 10px;
+}
+
+.progress {
+    width: 60%;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    align-items: left;
+}
+
+.label-left {
+    font-weight: 700;
+}
+
+.label-right {
+    font-weight: 700;
+    margin-left: 35%;
+
+}
+
+.progress-bar {
+    align-items: left;
+    background-color: #fc024d;
+    border-radius: 25px;
+}
+
+.percent55 {
+    position: relative;
+    top: 8px;
+    right: -750%;
+}
+@media screen and (max-width: 768px) {
+    .sec-percentage {
+        border-right: none;
+        margin-top: 20px;
+    }
+
+    .pgrs-bar {
+        margin-top: 20px;
+    }
+
+    .percentage .img {
+        text-align: center;
+        margin-right: auto;
+        margin-right: auto;
+    }
+
+    .percentage .h6 {
+        margin-top: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .percentage .h6 h6 {
+        font-size: 25px;
+    }
+}
+
+/* mble company logos */
+.logos .row div {
+    margin-left: 50px;
+}
+
+.logosm .row div {
+    margin-right: 50px;
+}
+
+.logos .row .div1 {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 400px){
+    .logo3{
+        padding-left: 40px;
+    }
+}
+/* ------- end mble logos */
+/* positioned mobiles */
+
+
+.background-img {
+    position: relative;
+    margin-top: 200px;
+    background-color: #2D0F67;
+    border-radius: 20px;
+    margin-bottom: -220px;
+    padding-bottom: 200px;
+}
+.background-img .container{
+    padding-bottom: 0px;
+}
+.phone-div1 {
+    margin-top: -14%;
+
+}
+
+.phones1 {
+    position: relative;
+    margin-left: 10%;
+}
+
+.phones1 .phones1-tag {
+    position: absolute;
+    top: 20%;
+    left: -33%;
+    background-color: yellow;
+    padding: 5px 20px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.phones1 img {
+    width: 100%;
+    height: auto;
+}
+
+.phone1-text p {
+    margin-top: 20% !important;
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    margin-left: -5%;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+
+.phone1-text p span {
+    color: yellow;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.phone-div2 {
+    margin-left: 5%;
+    margin-top: -180px;
+}
+
+.phones2 {
+    position: relative;
+}
+
+.phones2 img {
+    width: 100%;
+    height: auto;
+}
+
+.phones2 .phones2-tag {
+    position: absolute;
+    top: 7%;
+    right: -70%;
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+.phones3 {
+
+    position: relative;
+    margin-top: 30%;
+}
+
+.phones3 img {
+    width: 100%;
+    height: auto;
+}
+
+.phones3 .phones3-tag {
+    position: absolute;
+    top: 5%;
+    right: -70%;
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.phone-div4 {
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+.phone4 {
+    position: relative;
+}
+
+.phones4 img {
+    height: auto;
+    width: 100%;
+}
+
+.phones4 .phones4-tag {
+    position: absolute;
+    top: 3%;
+    right: -50%;
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+.phones5 {
+    margin-top: 30%;
+    position: relative;
+}
+
+.phones5 img {
+    width: 100%;
+    height: auto;
+}
+
+.phones5 .phones5-tag {
+    position: absolute;
+    bottom: 8%;
+    left: -40%;
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+.phone-div6 {
+    margin-left: 5%;
+    margin-top: 20%;
+}
+
+.phones6 {
+    position: relative;
+}
+
+.phones6 img {
+    width: 100%;
+    height: 0%;
+}
+
+.phones6 .phones6-tag {
+    position: absolute;
+    top: 5%;
+    right: -40%;
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------------- */
+@media screen and (max-width:580px) {
+    .phone-div1 {
+        margin-top: -20%;
+    }
+
+    .phones1 {
+        position: relative;
+        margin-left: 50%;
+    }
+
+    .phones1 .phones1-tag {
+        position: absolute;
+        top: 20%;
+        left: -33%;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 25px;
+    }
+
+    .phones1 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .phone1-text p {
+        margin-top: -50% !important;
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+        margin-left: 0%;
+        letter-spacing: 0px;
+        width: 50%;
+        letter-spacing: 1px;
+    }
+
+    .phone1-text p span {
+        color: yellow;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .phone-div2 {
+        margin-left: 0;
+        margin-top: 20%;
+    }
+
+    .phones2 {
+        position: relative;
+    }
+
+    .phones2 img {
+        width: 70%;
+        height: auto;
+    }
+
+    .phones2 .phones2-tag {
+        position: absolute;
+        top: 6%;
+        right: -10%;
+        font-size: 15px;
+        border-radius: 25px;
+    }
+
+    .phones3 {
+
+        position: relative;
+        margin-top: 20%;
+    }
+
+    .phones3 img {
+        width: 70%;
+        height: auto;
+    }
+
+    .phones3 .phones3-tag {
+        position: absolute;
+        top: 5%;
+        right: -10%;
+        font-size: 15px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+    .background-img .container .row{
+        display: flex !important; 
+        margin: auto;
+    }
+
+    .phone-div4 {
+    
+        margin-left: 0%;
+        margin-top: 50%;
+    }
+
+    .phone4 {
+        position: relative;
+    }
+
+    .phones4 img {
+        height: auto;
+        width: 70%;
+    }
+
+    .phones4 .phones4-tag {
+        position: absolute;
+        top: 3%;
+        right: 0%;
+        font-size: 15px;
+        border-radius: 25px;
+    }
+
+    .phones5 {
+        margin-top: 20%;
+        position: relative;
+    }
+
+    .phones5 img {
+        width: 70%;
+        height: auto;
+    }
+
+    .phones5 .phones5-tag {
+        position: absolute;
+        bottom: 8% !important;
+        left: 50%;
+        font-size: 15px;
+        border-radius: 25px;
+    }
+
+    .phone-div6 {
+        margin-left: 0%;
+        margin-top: -20%;
+        margin-bottom: 30px;
+    }
+
+    .phones6 {
+        position: relative;
+    }
+
+    .phones6 img {
+        width: 70%;
+        height: 0%;
+    }
+
+    .phones6 .phones6-tag {
+        position: absolute;
+        top: 60%;
+        right: -20%;
+        font-size: 15px;
+        border-radius: 25px;
+    
+    }
+}
+
+/* mble show case */
+.intract-with{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.intract-with span{
+    color: yellow;
+    font-size: 35px;
+    font-weight: 700;
+}
+.row-show-case{
+    margin-top: 50px;
+}
+
+.show-case img {
+    width: 100%;
+    height: auto;
+}
+
+.mble-tags p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fc024d;
+}
+
+/* end mble show case */
+/* measure succeess */
+.measure {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+.measure img {
+    height: auto;
+    width: 100%;
+}
+
+.measure h1 {
+    margin-left: 3%;
+    margin-bottom: -100px;
+}
+
+.measure h1 span {
+    color: rgb(49, 49, 252);
+}
+
+.success-btn {
+    position: absolute;
+    right: 25%;
+    bottom: 15%;
+    padding: 10px 35px !important;
+    color: white;
+    background-color: #fc024d;
+    border-radius: 25px !important;
+    box-shadow: 0 0 15px #fc024d;
+    -moz-box-shadow: 0 0 15px #fc024d;
+    -webkit-box-shadow: 0 0 15px #fc024d;
+}
+
+@media screen and (max-width: 500px) {
+    .measure {
+        margin-top: 30px;
+    }
+
+    .success-btn {
+        left: 35%;
+        bottom: -12%;
+        color: white;
+        padding: 5px 25px !important;
+
+    }
+
+    .measure h1 {
+        margin-bottom: 0px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mble-tags p {
+        font-size: 10px;
+        font-weight: 400;
+        color: #fc024d;
+        width: auto;
+    }
+}
+
+/* end measure sucess */
+.sharp-bg {
+    background-image: url(../images/sharpbg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 50px;
+    border-radius: 20px !important;
+}
+
+.sharp-bg h1 {
+    color: white;
+}
+
+.sharp-bg h1 span {
+    color: #fcf802;
+}
+
+.c-cards p {
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sharp-bg h4 {
+    color: white;
+    text-align: end;
+    margin-right: 4%;
+    padding-bottom: 30px;
+}
+
+.sharp-bg h4 span {
+    color: #fcf802;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+    .sharp-bg {
+        margin-top: 40px;
+
+    }
+
+    .sharp-bg h1 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sharp-bg h4 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c-cards img {
+        justify-content: center;
+        margin: auto;
+        height: 120px;
+        width: 120px;
+    }
+}
+
+/* end sharpshoot */
+/* our work */
+.our-work {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.our-work h1 span {
+    color: #fc024d;
+}
+
+.our-work button {
+    color: white;
+    background-color: #fc024d;
+    background-color: #fc024d;
+    border-radius: 25px;
+    box-shadow: 0 0 15px #fc024d;
+    -moz-box-shadow: 0 0 15px #fc024d;
+    -webkit-box-shadow: 0 0 15px #fc024d;
+}
+
+/* ------------------- */
+.main-circle {
+    position: relative;
+}
+
+.circle img {
+    height: auto;
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(231, 225, 225);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .circle {
+        height: 100px;
+        width: 100px;
+    }
+
+    .circle img {
+        width: 40% !important;
+        height: auto !important;
+    }
+}
+
+/* circle slider */
+
+.carousel-indicators {
+    bottom: -15% !important;
+}
+
+.carousel-indicators li {
+    background-color: rgb(197 197 197) !important;
+    opacity: 8 !important;
+    height: 5px !important;
+
+}
+
+.carousel-indicators .active {
+    background-color: #fc024d !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/rightarrow-removebg-preview.webp) !important;
+    height: 45px !important;
+    width: 45px !important;
+}
+
+.carousel-control-next {
+    top: 110% !important;
+    right: 4% !important;
+}
+
+.carousel-control-next .active {
+    background-color: #fc024d !important;
+    opacity: 1 !important;
+}
+
+@media screen and (max-width: 425px) {
+    .carousel-control-next-icon {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .carousel-control-next {
+        right: 15% !important;
+    }
+
+}
+
+/* contact section */
+.contact-area{
+    margin-top: 150px;
+}
+.contact-bg {
+    margin-top: 100px;
+    /* background-image: url(../images/contactbg.webp); */
+    background-color: #2D0F67;
+    border-radius: 25px;
+    /* background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    margin-bottom: 30px;
+}
+
+.contact-mble img {
+    height: auto;
+    width: 110%;
+}
+
+.contact-mble {
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
+
+.contact-h h1 {
+    color: white;
+}
+
+.contact-h h1 span {
+    color: #fcf802;
+}
+
+.contact-h h6 {
+    color: white;
+    font-weight: 200;
+}
+
+form label {
+    color: white;
+}
+
+/* ---------- */
+form label input[type=text] {
+    width: 335% !important;
+    height: 20px !important;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+form .btn-reachout {
+    width: 20%;
+    background-color: #fc024d !important;
+    color: white !important;
+    font-weight: 500 !important;
+    padding: 8px 10px !important;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px !important;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+form button:hover {
+    color: white;
+    background-color: #fa1515 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-area{
+        position: relative;
+       
+    }
+   
+    .contactmble-sm img {
+        position: absolute;
+      right: 10%;
+      top: -40px;
+
+    }
+
+    .contactmble-sm img {
+        height: auto;
+        width: 40% !important;
+    }
+
+    .contact-h {
+        padding: 0 30px !important;
+    }
+    .contact-h h3 {
+        color: white;
+        margin-top: 120px;
+    }
+    
+    .contact-h h3 span {
+        color: #fcf802;
+        
+    }
+
+    form label input[type=text] {
+        width: 150% !important;
+    }
+   
+
+    form .btn-reachout {
+        width: 40%;
+    }
+
+}
+@media screen and (max-width: 375px){
+    .contactmble-sm img {
+        position: absolute;
+      right: 10%;
+      top: -40px !important;
+
+    }
+    form label input[type=text] {
+        width: 130% !important;
+    }
+    .contact-h h3  {
+      
+        margin-top: 80px;
+    }
+    form .btn-reachout {
+        width: 50%;
+    }
+}
+/* ---------- */
