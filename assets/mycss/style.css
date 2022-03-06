@@ -1029,7 +1029,7 @@ form button:hover {
 }
 @media screen and (max-width: 425px){
     form label input[type=text] {
-        width: 120% !important;
+        width: 130% !important;
     }
 }
 @media screen and (max-width: 375px){
