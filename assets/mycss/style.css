@@ -936,12 +936,12 @@
 
 .contact-mble img {
     height: auto;
-    width: 110%;
+    width: 100%;
 }
 
-.contact-mble {
+.contact-mble img {
     padding-top: 50px;
-    margin-bottom: -50px;
+    margin-bottom: -60px;
 }
 
 .contact-h h1 {
